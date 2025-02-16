@@ -1,0 +1,14 @@
+{
+  "strips": [
+    {
+      "command": "hello",
+      "response": "Hello there!",
+      "enabled": true
+    },
+    {
+      "command": "goodbye",
+      "response": "Goodbye!",
+      "enabled": false
+    }
+  ]
+}

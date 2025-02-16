@@ -1,0 +1,14 @@
+{
+  "bot_token": "bot_token hire",
+  "prefix": "!",
+  "scripts": [
+    {
+      "name": "willkommen",
+      "enabled": true
+    },
+    {
+      "name": "command.command",
+      "enabled": true
+    }
+  ]
+}
