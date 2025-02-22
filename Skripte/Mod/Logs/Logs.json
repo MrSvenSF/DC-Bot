@@ -1,0 +1,71 @@
+{
+  "log_channel": "1340793567026610177",
+  "excluded_channels": [],
+  "log_format": {
+    "message_deletions": {
+      "title": "🗑️ **Nachricht gelöscht**",
+      "description": "(User) hat eine Nachricht von (Writer) in (Channel) gelöscht || **Inhalt der gelöscht wurde**: {content} || **(Bot) • (Datum Zeit)**",
+      "color": "ff0000"
+    },
+    "message_edits": {
+      "title": "✏️ **Nachricht bearbeitet**",
+      "description": "(User) hat eine Nachricht von (Writer) in (Channel) bearbeitet || **Vorher**: {before_content} || **Nachher**: {after_content} || **(Bot) • (Datum Zeit)**",
+      "color": "ffa500"
+    },
+    "channel_creations": {
+      "title": "📁 **Kanal erstellt**",
+      "description": "(User) hat den Kanal (Channel) erstellt || **Inhalt**: {content} || **(Bot) • (Datum Zeit)**",
+      "color": "008000"
+    },
+    "channel_deletions": {
+      "title": "🗑️ **Kanal gelöscht**",
+      "description": "(User) hat den Kanal (Channel) gelöscht || **Inhalt**: {content} || **(Bot) • (Datum Zeit)**",
+      "color": "ff0000"
+    },
+    "channel_updates": {
+      "title": "🔄 **Kanal aktualisiert**",
+      "description": "(User) hat den Kanal (Channel) aktualisiert || **Vorher**: {before_content} || **Nachher**: {after_content} || **Inhalt**: {content} || **(Bot) • (Datum Zeit)**",
+      "color": "ffa500"
+    },
+    "role_updates": {
+      "title": "🔄 **Rolle aktualisiert**",
+      "description": "(User) hat die Rolle (before_content) aktualisiert || **Vorher**: {before_content} | **Nachher**: {after_content} || {content} || **(Bot) • (Datum Zeit)**",
+      "color": "ffa500"
+    },
+    "reaction_add": {
+      "title": "👍 **Reaktion hinzugefügt**",
+      "description": "(User) hat eine Reaktion zu einer Nachricht von (Writer) hinzugefügt || **Reaktion**: {content} || **Nachricht**: {message_link} || **(Bot) • (Datum Zeit)**",
+      "color": "0000ff"
+    },
+    "reaction_remove": {
+      "title": "👎 **Reaktion entfernt**",
+      "description": "(User) hat eine Reaktion von einer Nachricht von (Writer) entfernt || **Reaktion**: {content} || **Nachricht**: {message_link} || **(Bot) • (Datum Zeit)**",
+      "color": "0000ff"
+    },
+    "voice_chat_joins": {
+      "title": "🔊 **Voice-Chat beigetreten**",
+      "description": "(User) hat den Voice-Chat (Channel) betreten || **Inhalt**: {content} || **(Bot) • (Datum Zeit)**",
+      "color": "0000ff"
+    },
+    "voice_chat_leaves": {
+      "title": "🔇 **Voice-Chat verlassen**",
+      "description": "(User) hat den Voice-Chat (Channel) verlassen || **Inhalt**: {content} || **(Bot) • (Datum Zeit)**",
+      "color": "0000ff"
+    },
+    "voice_chat_switches": {
+      "title": "🔄 **Voice-Chat gewechselt**",
+      "description": "(User) hat den Voice-Chat gewechselt || **Von**: {before_channel} || **Zu**: {after_channel} || **(Bot) • (Datum Zeit)**",
+      "color": "0000ff"
+    },
+    "server_joins": {
+      "title": "👋 **Server beigetreten**",
+      "description": "(User) ist dem Server beigetreten || **(Bot) • (Datum Zeit)**",
+      "color": "008000"
+    },
+    "server_leaves": {
+      "title": "👋 **Server verlassen**",
+      "description": "(User) hat den Server verlassen || **(Bot) • (Datum Zeit)**",
+      "color": "ff0000"
+    }
+  }
+}

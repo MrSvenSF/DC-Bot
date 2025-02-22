@@ -3,8 +3,18 @@
   "prefix": "!",
   "scripts": [
     {
+      "name": "Welcome",
+      "directory": "Welcome",
+      "enabled": true
+    },
+    {
       "name": "Logs",
-      "directory": "Logs",
+      "directory": "Mod.Logs",
+      "enabled": false
+    },
+    {
+      "name": "AntiSpam",
+      "directory": "Mod.AntiSpam",
       "enabled": true
     }
   ]

@@ -1,0 +1,14 @@
+{
+  "welcome_channel": "1326990456977887385",
+  "welcome_message": "Welcome to the server, {member}!",
+  "welcome_image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSk7pe4johfwJ3tP6wRCQrlPI_yLTktcVg8gQ&s",
+  "text_position": {
+    "x": 325,
+    "y": 125
+  },
+  "font_size": 30,
+  "image_size": {
+    "width": 650,
+    "height": 245
+  }
+}
